@@ -1,2 +1,17 @@
 /* Journey to the Center of the Earth Practicum */
 /* Bianca Bojczak */
+body {
+    margin: .1em;
+    padding: 10px;
+    border: 10px solid #886644; 
+    box-shadow: rgba(0,0,0,0.4) inset 5px 5px
+
+}
+
+header {
+    border-radius: 20px;
+}
+
+footer {
+    border-radius: 20px;
+}
