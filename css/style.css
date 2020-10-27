@@ -27,7 +27,7 @@ header {
 
 
 nav {
-background: whitesmoke 75%;
+background: rgb(230, 217, 200)75%;
 box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
 padding: 3pt;
 margin-top: 1em;
@@ -36,7 +36,7 @@ margin-top: 1em;
 
 
 main {
-background:whitesmoke 75%;
+background: rgb(230, 217, 200) 75%;
 box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
 padding: 10px;
 
@@ -45,8 +45,10 @@ padding: 10px;
 
 
 aside {
-    background: whitesmoke 75%;
+    background: rgb(230, 217, 200) 75%;
     box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
+    padding: 20px;
+    
    
    
    
@@ -55,7 +57,7 @@ aside {
 footer {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background: whitesmoke 75%;
+    background: rgb(230, 217, 200) 75%;
     text-align: center;
     box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
 }
@@ -106,13 +108,16 @@ align-content: space-between;
 
 .submission {
     border: 1pt solid black;
+    background-color: rgb(231, 229, 226);
     max-height: 100%;
     display: inline-flex;
-    max-width: 500px;
+    max-width: 50%;
     padding: 5px;
     text-align: center;
     align-items: center;
    position: relative;
+   
+
 
 }
 
@@ -122,5 +127,13 @@ align-content: space-between;
     
 }
 
-
+/* Tablet Size */
+@media screen and (min-width:786px) {
+    aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2px;
+    
+    }
+}
 
