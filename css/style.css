@@ -102,30 +102,46 @@ align-content: space-between;
 #cover {
     float: left;
     margin: 1rem; 
+    max-width: 50%;
    
 
+}
+
+#cryptogram img {
+    max-width: 100%;
+}
+
+#cryptogram figcaption {
+    text-align: center;
 }
 
 .submission {
     border: 1pt solid black;
     background-color: rgb(231, 229, 226);
-    max-height: 100%;
-    display: inline-flex;
-    max-width: 50%;
+    display: flex;
+    max-width: 75%;
+    min-height: 50%;
     padding: 5px;
     text-align: center;
-    align-items: center;
+    align-items: inline;
    position: relative;
+   align-content: space-between;
    
+  
 
 
 }
 
 .signature {
     font-style: italic;
-    text-align: justify;
+    text-align: center;
+    
+    
     
 }
+
+
+
 
 /* Tablet Size */
 @media screen and (min-width:786px) {
@@ -136,4 +152,10 @@ align-content: space-between;
     
     }
 }
+
+/* Large Screen Size */
+@media screen and (min-width:1024px) {
+   
+   
+    
 
