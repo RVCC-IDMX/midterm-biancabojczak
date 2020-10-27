@@ -4,14 +4,123 @@ body {
     margin: .1em;
     padding: 10px;
     border: 10px solid #886644; 
-    box-shadow: rgba(0,0,0,0.4) inset 5px 5px
-
+    box-shadow: rgba(0,0,0,0.4) inset 5px 5px;
+    background: linear-gradient(to bottom,#765729 0%, black 100%);
+   
 }
+
+h1 {
+   font-size: 50pt;
+   font-family: "Georgia";
+   color: white;
+   text-shadow: 2pt 2pt rgba(0,0,0,0.4);
+   text-align: center;
+}
+
 
 header {
-    border-radius: 20px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
 }
 
-footer {
-    border-radius: 20px;
+
+
+nav {
+background: whitesmoke 75%;
+box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
+padding: 3pt;
+margin-top: 1em;
 }
+
+
+
+main {
+background:whitesmoke 75%;
+box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
+padding: 10px;
+
+}
+
+
+
+aside {
+    background: whitesmoke 75%;
+    box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
+   
+   
+   
+    
+}
+footer {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: whitesmoke 75%;
+    text-align: center;
+    box-shadow: 5pt 5pt 5pt rgba(0,0,0,0.4) inset;
+}
+
+
+
+/* Hero Section */
+
+#hero, header {
+   width: auto;
+   overflow: hidden; 
+   background-size: cover;
+   background-image: url(../img/cave.jpg);
+   box-shadow: black inset 20px 20px 20px;
+   background-position: center;
+}
+
+#hero img {
+   width: auto;
+   
+   
+}
+
+/* Menu Section*/
+
+#menu ul{
+   list-style: none;
+text-align: center;
+align-content: space-between;
+}
+
+#menu li {
+    display: inline;
+    border: double; 
+   padding: 10px;
+   border-right: none;
+   border-top: none;
+   border-bottom: none;
+   
+}
+
+#cover {
+    float: left;
+    margin: 1rem; 
+   
+
+}
+
+.submission {
+    border: 1pt solid black;
+    max-height: 100%;
+    display: inline-flex;
+    max-width: 500px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+   position: relative;
+
+}
+
+.signature {
+    font-style: italic;
+    text-align: justify;
+    
+}
+
+
+
